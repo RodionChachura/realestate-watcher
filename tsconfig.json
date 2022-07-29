@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ESNEXT",
+    "allowJs": true,
+    "outDir": "./dist/src",
+    "removeComments": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "rootDirs": ["src/"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+  },
+  "include": [
+    "src/**/*",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

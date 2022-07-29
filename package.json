@@ -1,0 +1,19 @@
+{
+  "name": "realestate-watcher",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged",
+    "start": "npx ts-node src/index.ts"
+  },
+  "lint-staged": {
+    "*.{ts,json}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "puppeteer": "^15.5.0"
+  },
+  "devDependencies": {}
+}
