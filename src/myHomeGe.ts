@@ -82,7 +82,7 @@ export const showNewRealEstate = async () => {
 
     return recursiveSearch();
   };
-  recursiveSearch();
+  await recursiveSearch();
 
   const newUnits = units.filter((a) => !storage.state.shown.includes(a.id));
 
